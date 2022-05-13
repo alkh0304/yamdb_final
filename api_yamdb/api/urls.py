@@ -1,8 +1,7 @@
+from api import views
 from django.urls import include, path
 from rest_framework import routers
 from users import views as user_views
-
-from api import views
 
 router_v1 = routers.DefaultRouter()
 router_v1.register(r'categories', views.CategoryViewSet)
