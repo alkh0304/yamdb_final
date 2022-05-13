@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: alkh0304/yamdb_final:latest
+    image: alkh0304/yamdb_workflow:latest
     restart: always
     volumes:
       - static_value:/app/api_yamdb/static/
