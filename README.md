@@ -12,6 +12,16 @@
 
 Проект YaMDb собирает отзывы пользователей на различные произведения.
 
+## Технологии и библиотеки:
+- [Python](https://www.python.org/);
+- [Django](https://www.djangoproject.com);
+- [PostgreSQL](https://www.postgresql.org);
+- [Gunicorn](https://gunicorn.org);
+- [NGINX](https://nginx.org/ru/);
+- [Яндекс Облако](https://cloud.yandex.ru);
+- [Docker](https://www.docker.com);
+- [CI/CD github actions](https://github.com/features/actions).
+
 ## Как запустить проект:
 
 - Клонировать репозиторий и перейти в него в командной строке
